@@ -2,4 +2,4 @@
 
 Coding policy for all of my projects
 
-* [C++ Coding Policy](../blob/master/cpp-coding-policy.md)
+* [C++ Coding Policy](cpp-coding-policy.md)
