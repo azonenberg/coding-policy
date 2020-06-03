@@ -35,6 +35,8 @@ limited to `gets()`, `strcpy()`, `sprintf()`, etc.
 
 * One level of indentation = one \t character = four columns. Do not use spaces for indentation.
 * Curly braces go on their own line.
+* Curly braces are not required for a control statement with a single-line body, however if an explicitly empty body is
+used then use braces rather than simply a semicolon. The opening and closing braces may be on the same line.
 * The * in a pointer declaration is part of the type, not the variable. For example `int* foo`, not `int *foo`.
 * Do not put a space between a keyword or identifier name and an opening parentheses. For example `if(foo)`, not `if
 (foo)`.
