@@ -42,3 +42,6 @@ used then use braces rather than simply a semicolon. The opening and closing bra
 (foo)`.
 * If order of operations is not trivially obvious by inspection, add additional parentheses. Place spaces between
 multiple levels of parentheses. For example `if( (foo == bar) || (baz == foobar) )`.
+
+* [astyle](https://sourceforge.net/projects/astyle/) code formatting (for *.cpp)
+`astyle -T --indent-switches --style=bsd --lineend=linux`
