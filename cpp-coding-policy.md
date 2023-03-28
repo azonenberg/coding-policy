@@ -16,6 +16,7 @@ limited to `gets()`, `strcpy()`, `sprintf()`, etc.
 * Use of C string manipulation functions with an explicit size, such as `snprintf()`, is acceptable.
 * Field width specifiers are required on all `sscanf()` calls that write to strings. For example, `%30s` rather than
 `%s`.
+*  Do not use usleep(..) but use instead multiplatform C++ code std::this_thread::sleep_for(std::chrono::microseconds(..)) 
 
 # Global Variables
 
